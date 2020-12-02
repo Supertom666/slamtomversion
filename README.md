@@ -1,4 +1,4 @@
-# slamtomversion
+
 # ENVIRONMENT
 ubuntu 18.04 version
 cmake 3.10 version
