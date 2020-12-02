@@ -1,8 +1,8 @@
 
 # ENVIRONMENT
-ubuntu 18.04 version/n
-cmake 3.10 version/n
-CLION 2020.2 version/n
+ubuntu 18.04 version  
+cmake 3.10 version  
+CLION 2020.2 version  
 
 
 ## Pangolin
