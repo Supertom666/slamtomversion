@@ -1,0 +1,31 @@
+//
+// Created by tom on 15/11/2020.
+//
+
+#include "myslam/config.h"
+namespace myslam
+{
+bool Config::setParameterFile(const std::string& filename ){
+    if (config_ == nullptr)
+        config_ = shared_ptr<Config>(new Config);
+    config_->file_ = cv::FileStorage(filename.c_str(), cv::FileStorage::READ);//可以读取一个yaml文件，且访问其中任意一个字段
+    if (!config_->file_.isOpened())
+    {
+
+        std::cerr << "parameter file " << filename << " does not exist." << std::endl;
+        config_->file_.release();
+        return false;
+
+    }
+    return true;
+}
+
+Config::~Config()
+{
+    if (file_.isOpened() )
+        file_.release();
+};
+
+shared_ptr<Config> Config::config_ = nullptr;
+
+}

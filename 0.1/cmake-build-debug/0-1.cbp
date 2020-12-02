@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="0-1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\code\;CMake Files\..\..\code\Sophus\;CMake Files\..\..\code\Sophus\build\;CMake Files\..\..\code\Pangolin\;CMake Files\..\..\code\Pangolin\build\;CMake Files\..\..\code\Pangolin\build\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tom/CLionProjects/0.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tom/CLionProjects/0.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tom/CLionProjects/0.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tom/CLionProjects/0.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tom/CLionProjects/0.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../code/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\code\Sophus\build\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../code/Pangolin/build/src/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\code\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../code/Pangolin/build/src/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\code\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/tom/CLionProjects/0.1/../../code/Pangolin/build/src/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\code\Pangolin\build\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

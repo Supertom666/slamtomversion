@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -march=native -O3 -O3 -DNDEBUG  -rdynamic CMakeFiles/visual_odometry.dir/visual_odometry.cpp.o  -o ../../bin/visual_odometry   -L/home/tom/code/slambook2/3rdparty/g2o/lib 
